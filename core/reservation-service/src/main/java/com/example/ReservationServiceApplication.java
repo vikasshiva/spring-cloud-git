@@ -24,10 +24,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-
-
-//@EnableBinding(ReservationServiceChannels.class)
-//@EnableDiscoveryClient
 @SpringBootApplication
 public class ReservationServiceApplication {
 
@@ -42,7 +38,7 @@ class NexonHealthIndicator implements HealthIndicator {
 
 	@Override
 	public Health health() {
-		return Health.status("I <3 Nexon!!").build();
+		return Health.status("I <3 Spring Clouds!!").build();
 	}
 }
 
